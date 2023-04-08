@@ -1,0 +1,15 @@
+education_info:
+  edu_info: //select[@name='education_level' and option[contains(text(),'${text}')]]
+
+language_skill:
+  language: lang
+  speak: //select[@name='speak' and option[contains(text(),'${text}')]]
+  read: //select[@name='read' and option[contains(text(),'${text}')]]
+  write: //select[@name='write' and option[contains(text(),'${text}')]]
+  understand: //select[@name='understand' and option[contains(text(),'${text}')]]
+  lang_addmore: css=.__TROL_job_apply_lang_addmore
+  delete: (//span[contains(text(),'ลบ')][1])
+
+  button_edu:
+    btn_back: css=.__TROL_job_apply_lang_back
+    btn_next: css=.__TROL_job_apply_lang_next
